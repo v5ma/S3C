@@ -1,9 +1,3 @@
-(function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (factory());
-}(this, (function () { 'use strict';
-
 var THREE = AFRAME.THREE;
 var GRABBING_CLASS = 'a-grabbing';
 var PI_2 = Math.PI / 2;
@@ -420,5 +414,3 @@ AFRAME.registerComponent('touch-look-controls', {
     this.savedPose = null;
   }
 });
-
-})));
